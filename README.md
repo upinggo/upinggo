@@ -15,3 +15,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - [ ] 🌱 I’m currently learning how to set up NAS
+- [ ] [set up a self-profile project - AI based](https://upinggo.github.io/profile/)
+- [ ] simple Next.js
