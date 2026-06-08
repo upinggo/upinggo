@@ -17,3 +17,4 @@ Here are some ideas to get you started:
 - [ ] 🌱 I’m currently learning how to set up NAS
 - [ ] [set up a self-profile project - AI based](https://upinggo.github.io/profile/) built with Next.JS
 - [ ] simple Next.js
+- [ ] [TrendRadar](https://upinggo.github.io/TrendRadar/)
