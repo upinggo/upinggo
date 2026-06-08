@@ -18,3 +18,4 @@ Here are some ideas to get you started:
 - [ ] [set up a self-profile project - AI based](https://upinggo.github.io/profile/) built with Next.JS
 - [ ] simple Next.js
 - [ ] [TrendRadar](https://upinggo.github.io/TrendRadar/)
+- [ ] [AI-agent prototype](https://github.com/upinggo/neil_agent)
