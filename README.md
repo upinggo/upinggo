@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://github.com/upinggo">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Upinggo+%F0%9F%91%8B;AI+Builder+%C2%B7+Next.js+Tinkerer;Always+Learning%2C+Always+Shipping" alt="typing header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=6C8EEF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Neil+%F0%9F%91%8B;AI+Builder+%C2%B7+Next.js+Tinkerer;Always+Learning%2C+Always+Shipping" alt="typing header" />
 </a>
 
 <p>
