@@ -43,13 +43,22 @@ motto:     "Ship early, learn faster."
 
 ---
 
-### 🚀 Featured projects
+### 🚀 Recent projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| 🤖 [**neil_agent**](https://github.com/upinggo/neil_agent) | Prototype autonomous AI agent | Python · LLM tools |
-| 📊 [**TrendRadar**](https://upinggo.github.io/TrendRadar/) | Trend visualization dashboard | Next.js · Charts |
-| 🌐 [**AI Profile**](https://upinggo.github.io/profile/) | AI-powered personal site | Next.js · Edge AI |
+<!-- RECENT-REPOS:START -->
+| Repo | Description | Lang | Last push |
+|---|---|---|---|
+| [**neil_agent**](https://github.com/upinggo/neil_agent) | Prototype autonomous AI agent | Python | — |
+| [**TrendRadar**](https://github.com/upinggo/TrendRadar) | Trend visualization dashboard | TypeScript | — |
+| [**AI_profile**](https://github.com/upinggo/AI_profile) | AI-powered personal site | JavaScript | — |
+<!-- RECENT-REPOS:END -->
+
+---
+
+### 📅 Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 

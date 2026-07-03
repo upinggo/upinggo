@@ -1,0 +1,67 @@
+name: Update recent repos
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch recent repos and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: upinggo
+        run: |
+          # Fetch 6 most recently pushed public repos (excluding the profile repo itself)
+          REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/$GH_USER/repos?sort=pushed&direction=desc&per_page=10&type=public" \
+            | jq -r '.[] | select(.name != "upinggo") | select(.fork == false) | [.name, .description, .html_url, .language, .pushed_at] | @tsv' \
+            | head -6)
+
+          # Build markdown table rows
+          TABLE_ROWS=""
+          while IFS=$'\t' read -r name desc url lang pushed; do
+            # Truncate description to 60 chars
+            short_desc="${desc:0:60}"
+            [ "${#desc}" -gt 60 ] && short_desc="${short_desc}…"
+            [ -z "$short_desc" ] || [ "$short_desc" = "null" ] && short_desc="—"
+            [ -z "$lang" ] || [ "$lang" = "null" ] && lang="—"
+            # Format pushed date as YYYY-MM-DD
+            date_fmt=$(echo "$pushed" | cut -c1-10)
+            TABLE_ROWS="${TABLE_ROWS}| [**${name}**](${url}) | ${short_desc} | ${lang} | ${date_fmt} |\n"
+          done <<< "$REPOS"
+
+          # Replace content between markers in README
+          NEW_TABLE="| Repo | Description | Lang | Last push |\n|---|---|---|---|\n${TABLE_ROWS}"
+
+          # Use python for reliable multi-line replacement
+          python3 - <<PYEOF
+          import re, os
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_table = """${NEW_TABLE}"""
+
+          pattern = r'(<!-- RECENT-REPOS:START -->).*?(<!-- RECENT-REPOS:END -->)'
+          replacement = r'\1\n' + new_table + r'\2'
+          updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+          PYEOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update recent repos"
+          git push
