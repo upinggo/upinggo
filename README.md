@@ -58,6 +58,9 @@ motto:     "Ship early, learn faster."
 ### 📅 Recent activity
 
 <!--START_SECTION:activity-->
+1. 🚀 Published release [v1.7.0](https://github.com/upinggo/profile/releases/tag/v1.7.0) in [upinggo/profile](https://github.com/upinggo/profile)
+2. 🚀 Published release [v1.6.0](https://github.com/upinggo/profile/releases/tag/v1.6.0) in [upinggo/profile](https://github.com/upinggo/profile)
+3. 🚀 Published release [v1.5.2](https://github.com/upinggo/profile/releases/tag/v1.5.2) in [upinggo/profile](https://github.com/upinggo/profile)
 <!--END_SECTION:activity-->
 
 ---
