@@ -48,9 +48,9 @@ motto:     "Ship early, learn faster."
 <!-- RECENT-REPOS:START -->
 | Repo | Description | Lang | Last push |
 |---|---|---|---|
+| [**ShanghaiEstate-crawl**](https://github.com/upinggo/ShanghaiEstate-crawl) | This repository is generated via AI | JavaScript | 2026-07-04 |
 | [**TrendRadar**](https://github.com/upinggo/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platfor… | Python | 2026-07-04 |
 | [**profile**](https://github.com/upinggo/profile) | This is a profile for AI gen. Vercel demo:https://profile-om… | HTML | 2026-07-04 |
-| [**ShanghaiEstate-crawl**](https://github.com/upinggo/ShanghaiEstate-crawl) | This repository is generated via AI | JavaScript | 2026-07-03 |
 | [**leecode**](https://github.com/upinggo/leecode) | Algorithm  | HTML | 2024-06-07 |
 | [**songbank_web**](https://github.com/upinggo/songbank_web) | newband_songbank | Vue | 2019-04-25 |
 | [**showloteam_web**](https://github.com/upinggo/showloteam_web) | dva+antd | JavaScript | 2019-03-30 |
