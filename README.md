@@ -61,8 +61,8 @@ motto:     "Ship early, learn faster."
 ### 📅 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/upinggo/ShanghaiEstate-crawl/pull/1) in [upinggo/ShanghaiEstate-crawl](https://github.com/upinggo/ShanghaiEstate-crawl)
-2. 🚀 Published release [v1.6.0](https://github.com/upinggo/profile/releases/tag/v1.6.0) in [upinggo/profile](https://github.com/upinggo/profile)
+1. 💪 Opened PR [#2](https://github.com/upinggo/ShanghaiEstate-crawl/pull/2) in [upinggo/ShanghaiEstate-crawl](https://github.com/upinggo/ShanghaiEstate-crawl)
+2. 🎉 Merged PR [#1](https://github.com/upinggo/ShanghaiEstate-crawl/pull/1) in [upinggo/ShanghaiEstate-crawl](https://github.com/upinggo/ShanghaiEstate-crawl)
 3. 🚀 Published release [v1.5.2](https://github.com/upinggo/profile/releases/tag/v1.5.2) in [upinggo/profile](https://github.com/upinggo/profile)
 <!--END_SECTION:activity-->
 
