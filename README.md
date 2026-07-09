@@ -61,9 +61,9 @@ motto:     "Ship early, learn faster."
 ### 📅 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#15](https://github.com/upinggo/TrendRadar/pull/15) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
-2. 💪 Opened PR [#15](https://github.com/upinggo/TrendRadar/pull/15) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
-3. 🎉 Merged PR [#14](https://github.com/upinggo/TrendRadar/pull/14) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
+1. 🎉 Merged PR [#9](https://github.com/upinggo/TrendRadar/pull/9) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
+2. 🎉 Merged PR [#15](https://github.com/upinggo/TrendRadar/pull/15) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
+3. 💪 Opened PR [#15](https://github.com/upinggo/TrendRadar/pull/15) in [upinggo/TrendRadar](https://github.com/upinggo/TrendRadar)
 <!--END_SECTION:activity-->
 
 ---
