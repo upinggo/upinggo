@@ -50,10 +50,10 @@ motto:     "Ship early, learn faster."
 |---|---|---|---|
 | [**TrendRadar**](https://github.com/upinggo/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platfor… | Python | 2026-11-08 |
 | [**profile**](https://github.com/upinggo/profile) | This is a profile for AI gen. Vercel demo:https://profile-om… | HTML | 2026-11-08 |
+| [**jyc**](Rust) | https://github.com/upinggo/jyc | 2026-07-22T03:30:11Z |  |
 | [**ShanghaiEstate-crawl**](https://github.com/upinggo/ShanghaiEstate-crawl) | This repository is generated via AI | JavaScript | 2026-07-06 |
 | [**leecode**](https://github.com/upinggo/leecode) | Algorithm  | HTML | 2024-06-07 |
 | [**songbank_web**](https://github.com/upinggo/songbank_web) | newband_songbank | Vue | 2019-04-25 |
-| [**showloteam_web**](https://github.com/upinggo/showloteam_web) | dva+antd | JavaScript | 2019-03-30 |
 <!-- RECENT-REPOS:END -->
 
 ---
