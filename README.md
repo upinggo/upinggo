@@ -48,7 +48,7 @@ motto:     "Ship early, learn faster."
 <!-- RECENT-REPOS:START -->
 | Repo | Description | Lang | Last push |
 |---|---|---|---|
-| [**TrendRadar**](https://github.com/upinggo/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platfor… | Python | 2026-11-08 |
+| [**TrendRadar**](https://github.com/upinggo/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platfor… | Python | 2026-11-09 |
 | [**profile**](https://github.com/upinggo/profile) | This is a profile for AI gen. Vercel demo:https://profile-om… | HTML | 2026-11-08 |
 | [**jyc**](Rust) | https://github.com/upinggo/jyc | 2026-07-22T03:30:11Z |  |
 | [**ShanghaiEstate-crawl**](https://github.com/upinggo/ShanghaiEstate-crawl) | This repository is generated via AI | JavaScript | 2026-07-06 |
